@@ -1,6 +1,6 @@
 # AZNavigationPopSwiper
 
-[![CI Status](https://img.shields.io/travis/mkyoo/AZNavigationPopSwiper.svg?style=flat)](https://travis-ci.org/mkyoo/AZNavigationPopSwiper)
+[![CI Status](https://img.shields.io/travis/minkook/AZNavigationPopSwiper.svg?style=flat)](https://travis-ci.org/minkook/AZNavigationPopSwiper)
 [![Version](https://img.shields.io/cocoapods/v/AZNavigationPopSwiper.svg?style=flat)](https://cocoapods.org/pods/AZNavigationPopSwiper)
 [![License](https://img.shields.io/cocoapods/l/AZNavigationPopSwiper.svg?style=flat)](https://cocoapods.org/pods/AZNavigationPopSwiper)
 [![Platform](https://img.shields.io/cocoapods/p/AZNavigationPopSwiper.svg?style=flat)](https://cocoapods.org/pods/AZNavigationPopSwiper)
@@ -22,7 +22,7 @@ pod 'AZNavigationPopSwiper'
 
 ## Author
 
-mkyoo, manguksmediawill@gmail.com
+minkook, manguks@gmail.com
 
 ## License
 
