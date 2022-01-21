@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1D641F4471E9B902A3461509 /* Pods_AZNavigationPopSwiper_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030EC00A696BC02AFB47FECF /* Pods_AZNavigationPopSwiper_Tests.framework */; };
+		4D08A074279A92FD0016B57A /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D08A073279A92FD0016B57A /* ChildViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,6 +32,7 @@
 		030EC00A696BC02AFB47FECF /* Pods_AZNavigationPopSwiper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZNavigationPopSwiper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		215FDC437E9EAFAF61303DA8 /* Pods_AZNavigationPopSwiper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AZNavigationPopSwiper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4022E25B85397E2C2C7AB7ED /* Pods-AZNavigationPopSwiper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AZNavigationPopSwiper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AZNavigationPopSwiper_Tests/Pods-AZNavigationPopSwiper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D08A073279A92FD0016B57A /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
 		58C7F23110A9C295DD91B068 /* AZNavigationPopSwiper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AZNavigationPopSwiper.podspec; path = ../AZNavigationPopSwiper.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* AZNavigationPopSwiper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZNavigationPopSwiper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				4D08A073279A92FD0016B57A /* ChildViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -223,10 +226,9 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AZNavigationPopSwiper" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -333,6 +335,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				4D08A074279A92FD0016B57A /* ChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
