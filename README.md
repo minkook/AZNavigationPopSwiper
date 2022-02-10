@@ -5,6 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/AZNavigationPopSwiper.svg?style=flat)](https://cocoapods.org/pods/AZNavigationPopSwiper)
 [![Platform](https://img.shields.io/cocoapods/p/AZNavigationPopSwiper.svg?style=flat)](https://cocoapods.org/pods/AZNavigationPopSwiper)
 
+
+<p align="center">
+      <img src="https://user-images.githubusercontent.com/2138712/153324368-128f25a1-a22b-4a36-9dc8-5e88431eb686.gif" alt="AZNavigationPopSwiper" title="AZImageSlider"> 
+</p>
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
