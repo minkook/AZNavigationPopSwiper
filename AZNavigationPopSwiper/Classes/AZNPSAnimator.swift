@@ -81,8 +81,7 @@ class AZNPSAnimator: NSObject, UIViewControllerAnimatedTransitioning {
             
         }
         
-        let duration = self.transitionDuration(using: transitionContext)
-        print("duration : \(duration)")
+        let duration = transitionDuration(using: transitionContext)
         
         UIView.animate(withDuration: duration, delay: 0, options: [.curveLinear]) {
             toViewController.view.transform = CGAffineTransform.identity
@@ -123,19 +122,19 @@ extension UIView {
         
         let shadowWidth = 4.0
         let shadowVerticalPadding = -20.0
-        let shadowHeight = self.frame.height - 2 * shadowVerticalPadding
+        let shadowHeight = frame.height - 2 * shadowVerticalPadding
         let shadowRect = CGRect(x: -shadowWidth, y: shadowVerticalPadding, width: shadowWidth, height: shadowHeight)
         
         let shadowPath = UIBezierPath.init(rect: shadowRect)
-        self.layer.shadowPath = shadowPath.cgPath
-        self.layer.shadowOpacity = 0.2
+        layer.shadowPath = shadowPath.cgPath
+        layer.shadowOpacity = 0.2
         
         let toValue: Float = 0.0
         let animation = CABasicAnimation(keyPath: "shadowOpacity")
-        animation.fromValue = self.layer.shadowOpacity
+        animation.fromValue = layer.shadowOpacity
         animation.toValue = toValue
-        self.layer.add(animation, forKey: nil)
-        self.layer.shadowOpacity = toValue
+        layer.add(animation, forKey: nil)
+        layer.shadowOpacity = toValue
         
     }
     
